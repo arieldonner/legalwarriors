@@ -1,3 +1,75 @@
-h1 {
-  font-weight: 400;
+:root {
+  --primary-navy: #1C3D5A;
+  --cream: #F8F5F0;
+  --gold: #C6A664;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: var(--primary-navy) !important;
+}
+.navbar .nav-link, .navbar .navbar-brand {
+  color: white !important;
+}
+.navbar .btn-primary {
+  background-color: var(--gold);
+  border-color: var(--gold);
+  color: black;
+}
+.navbar .btn-primary:hover {
+  background-color: #b2914c;
+  border-color: #b2914c;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(28, 61, 90, 0.6), rgba(28, 61, 90, 0.6)), url('images/pamela-heckel-VjXZD3Eag0k-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+  position: relative;
+}
+.hero a.btn-light {
+  background-color: var(--gold);
+  border-color: var(--gold);
+  color: black;
+  font-weight: 600;
+}
+.hero a.btn-light:hover {
+  background-color: #b2914c;
+  border-color: #b2914c;
+}
+body {
+  background-color: var(--cream);
+}
+/*This one is not doing anything and can be removed if kept as is*/
+.card-icon {
+  font-size: 3rem;
+  color: var(--primary-navy);
+}
+/*This one is not doing anything and can be removed if kept as is*/
+.step-icon {
+  font-size: 2rem;
+  color: var(--gold);
+}
+.card {
+  transition: transform 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+footer {
+  background-color: var(--primary-navy);
+  color: white;
+  padding: 20px 0;
+}
+footer a {
+  color: var(--gold);
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
 }
