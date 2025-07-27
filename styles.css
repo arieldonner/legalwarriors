@@ -45,11 +45,6 @@ body {
   background-color: var(--cream);
 }
 /*This one is not doing anything and can be removed if kept as is*/
-.card-icon {
-  font-size: 3rem;
-  color: var(--primary-navy);
-}
-/*This one is not doing anything and can be removed if kept as is*/
 .step-icon {
   font-size: 2rem;
   color: var(--gold);
